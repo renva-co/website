@@ -1,0 +1,74 @@
+baseURL: "https://www.example.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Renva"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Renva"
+  description: "Specializing in Ethereum and other leading blockchain technologies, we create robust and secure blockchain infrastructures that power the next generation of decentralized applications."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "renva-logo.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  contact:
+    - "hello@renva.co"
+
+  copyright: "© 2024 Renva"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "About"
+      url: "/about"
+      weight: 2
+
+  buttons:
+    - name: "Contact us"
+      url: "/#contact"
+      weight: 4
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/"
+      weight: 1
+
+    - name: "About"
+      url: "/about"
+      weight: 2
+
+    - name: "Careers"
+      url: "/careers"
+      weight: 3
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 4
+
+    - name: "hello@renva.co"
+      url: "/#contact"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"

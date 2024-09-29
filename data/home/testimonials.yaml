@@ -1,0 +1,15 @@
+enabled: true
+id: "testimonials"
+
+content:
+
+  list:
+    - text: "Great working with Renva! Very professional, completed the task and helped walk me through implementation and testing. Excellent contractor."
+      client: "Miguel"
+
+    - text: "Renva was great. Super responsive, flexible, and great at helping problem solving. 10/10 would happily work with again."
+      client: "Alex"
+
+    - text: "Thanks again for the support on our NFT project! Renva’s expertise in NFT development has been invaluable."
+      client: "Rigo"
+

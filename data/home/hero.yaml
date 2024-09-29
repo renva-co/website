@@ -1,0 +1,15 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "Building the future of **Web3**"
+  text: "We design and develop cutting-edge web3 applications that push the boundaries of technology. Our team of blockchain experts creates innovative solutions that transform what's possible. From decentralized apps to NFTs and DeFi platforms, we have the expertise to elevate your project to the next level."
+
+  buttonPrimary:
+    label: "How we work"
+    url: "/how-we-work"
+
+  buttonSecondary:
+    label: "Let's talk"
+    url: "#contact"
+

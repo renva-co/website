@@ -1,0 +1,40 @@
+<section id="contact" class="section bg-blue-light cta py-5">
+  <div class="container ">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-6">
+        {{ with .content.title }}
+        <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
+        {{ end }}
+      </div>
+    </div>
+    <div class="row justify-content-center mx-auto pb-3" style="max-width: 800px">
+      <form action="https://formspree.io/f/xgvwgzye" method="POST">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" name="name" required>
+          </div>
+          <div class="col-md-6">
+            <label for="company">Company</label>
+            <input type="text" id="company" class="form-control" name="company" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="textArea">Tell us about your project</label>
+          <textarea class="form-control" id="textArea" rows="3" name="message" required></textarea>
+        </div>
+        <div class="row justify-content-center" >
+          <div class="col-12 col-xl-6 text-center">
+            {{ with .content.button }}
+            <button type="submit" class="btn btn-outline-primary px-4" >{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></button>
+            {{ end }}
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

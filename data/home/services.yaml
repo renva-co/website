@@ -1,0 +1,18 @@
+enabled: true
+id: "services"
+
+content:
+  title: "Transform Your Vision into Reality with our Web3 Solutions"
+  text: ""
+  cards:
+    - image: "images/brainstorming.png"
+      title: "Blockchain Research and Innovation"
+      text: "Innovation is at the heart of what we do. We conduct cutting-edge research to explore and develop future advancements in blockchain technology. Our experienced team of researchers is dedicated to pushing the boundaries, finding new ways to solve problems, and advancing the industry."
+
+    - image: "images/code.png"
+      title: "Smart Contract Design and Development"
+      text: "From Ethereum to other EVM-compatible chains, we design and develop smart contracts that are secure, efficient, and tailored to your specific needs. Our services include creating oracles and backend services that seamlessly interact with these smart contracts, ensuring full integration and functionality."
+
+    - image: "images/encrypted.png"
+      title: "High-Standard Security Audits"
+      text: "Security is paramount in the blockchain world. We provide rigorous security audits of the highest standard to protect your smart contracts and applications from vulnerabilities. Our thorough audit process ensures that your project is secure, reliable, and ready for deployment."
